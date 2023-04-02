@@ -1,6 +1,22 @@
 # Gaussian Processes on Distributions based on Regularized Optimal Transport
+*François Bachoc, Louis Béthune, Alberto Gonzalez-Sanz, Jean-Michel Loubes.*
 
-This repository contains the code for the paper "Gaussian Processes on Distributions based on Regularized Optimal Transport".
+This repository contains the code for the paper: "Gaussian Processes on Distributions based on Regularized Optimal Transport" accepted at AISTATS 2023. Arxiv version: [https://arxiv.org/abs/2210.06574](https://arxiv.org/abs/2210.06574)
+
+To cite us:
+
+```
+@inproceedings{bachoc2023gaussian,
+      title={Gaussian Processes on Distributions based on Regularized Optimal Transport}, 
+      author={François Bachoc and Louis Béthune and Alberto Gonzalez-Sanz and Jean-Michel Loubes},
+      booktitle={AISTATS},
+      year={2021}
+}
+```
+
+## Warning
+
+`gpjax` is a major dependency of the project. Unfortunately this library is still in alpha and went through some numerous breaking API changes during the reviewing of the paper. Hence, some notebooks may not run out of the box anymore (some of them work with `0.4.13` version, and others with `0.5.3` version). Maintaining the notebooks is beyond the scope of our project, where the objective was mainly to illustrate the theorems of the paper. In the future, a reference implementation of the kernel will be available, based on a stable API of `gpjax`.
 
 ## Dependencies
 
